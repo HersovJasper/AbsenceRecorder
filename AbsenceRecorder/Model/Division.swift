@@ -30,6 +30,7 @@ class Division{
     //static means accessible at the class level - don't require the class to be instantiated to access these
     static let examples = [Division.createDivision(code: "vCX-1", of: 8),
                            Division.createDivision(code: "MCW-1", of: 11),
-                           Division.createDivision(code: "pCZ-1", of: 12)]
+                           Division.createDivision(code: "pCZ-1", of: 12),
+                           Division.createDivision(code: "oCY-1", of: 6)]
     #endif
 }

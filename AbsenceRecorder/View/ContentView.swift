@@ -9,11 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var divisions: [Division]
+    @State private var currentDate: Date = Date()
     
     var body: some View {
-        Text("Division Code: \(divisions[0].code)")
-            .padding()
+        NavigationView {
+            List(divisions, id: \.self.code) { division in
+                DivisionItem(division: division)
+            }
+            .navigationTitle(currentDate.getShortDate())
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: { currentDate = currentDate.prevDay() }) {
+                        Image(systemName: "arrow.backward")
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: { currentDate = currentDate.nextDay() }) {
+                        Image(systemName: "arrow.forward")
+                    }
+                }
+            }
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -27,6 +27,7 @@
 		42A64AEE2600B71B000C44B4 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A64AED2600B71B000C44B4 /* StudentAbsence.swift */; };
 		42A64AF32600BC3F000C44B4 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A64AF22600BC3F000C44B4 /* Absence.swift */; };
 		42A64AF82600C00B000C44B4 /* DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A64AF72600C00B000C44B4 /* DivisionTests.swift */; };
+		42A64B0626016F25000C44B4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A64B0526016F24000C44B4 /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		42A64AED2600B71B000C44B4 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		42A64AF22600BC3F000C44B4 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 		42A64AF72600C00B000C44B4 /* DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTests.swift; sourceTree = "<group>"; };
+		42A64B0526016F24000C44B4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				42944ADE25F18CE300576D2C /* Date.swift */,
+				42A64B0526016F24000C44B4 /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				42944AF325F7FC1D00576D2C /* StatisticsView.swift in Sources */,
 				42944AB725ED9B9E00576D2C /* Division.swift in Sources */,
 				42944A8225ED943600576D2C /* AbsenceRecorderApp.swift in Sources */,
+				42A64B0626016F25000C44B4 /* FileManager.swift in Sources */,
 				42944AE425F1929200576D2C /* DivisionItem.swift in Sources */,
 				42944AE925F7F9B100576D2C /* AbsenceView.swift in Sources */,
 				42A64AF32600BC3F000C44B4 /* Absence.swift in Sources */,
